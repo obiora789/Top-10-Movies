@@ -1,13 +1,13 @@
 <h1>Top-10-Movies</h1>
-This is my personal blog of my top ten movies of all time. Feel free to add more than 10 movies. Enjoy!! <br>
+<p>This is my personal blog of my top ten movies of all time. Feel free to add more than 10 movies. Enjoy!!</p>
 <p>Simply put, this blog ranks your favourite movies of all time based on the movie ratings you provide, and shows them to the whole world.</p>
-The route "http://localhost:5000/" is the homepage and diaplays all the movies already in the database. If there are no movies, only the "Add Movie button" is displayed. <br>
-The route "http://localhost:5000/add" is activated when you click "Add Movie" button. Here, you can type the name of the movie you love.<br>
-The "/select" route is activated immediately you submit the movie you would like to add. This route displays the likely movies (and the year they were produced) that may have a similar name to the movie you requested. <br>
-You can then manually select the correct movie to be added to your collection.<br> 
-The "/edit" route provides you the opportunity to personally rate the movie as well as add a review to be displayed on the homepage. <br>
-The "/edit" route is either automatically triggered when adding a movie for the first time, or manually triggered when you click the "Update" button.<br>
-The "/delete" route deletes a movie from both your list of movies and from the database permanently.<br>
+<p>The route "http://localhost:5000/" is the homepage and diaplays all the movies already in the database. If there are no movies, only the "Add Movie button" is displayed.</p>
+<p>The route "http://localhost:5000/add" is activated when you click "Add Movie" button. Here, you can type the name of the movie you love.</p>
+<p>The "/select" route is activated immediately you submit the movie you would like to add. This route displays the likely movies (and the year they were produced) that may have a similar name to the movie you requested. </p>
+<p>You can then manually select the correct movie to be added to your collection.</p> 
+<p>The "/edit" route provides you the opportunity to personally rate the movie as well as add a review to be displayed on the homepage. <br>
+The "/edit" route is either automatically triggered when adding a movie for the first time, or manually triggered when you click the "Update" button.</p>
+<p>The "/delete" route deletes a movie from both your list of movies and from the database permanently.</p>
 
 
 <h2>Requirements</h2>
